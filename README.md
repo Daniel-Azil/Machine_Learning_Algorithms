@@ -15,10 +15,33 @@ This Jupyter Notebook contains a simple implementation of 1D linear regression u
 - **Training Loop:** The model is trained with different learning rates using stochastic gradient descent.
 - **Results:** Training and validation errors are recorded for each learning rate.
 
-#### Usage
 
-1. Adjust the hyperparameters and learning rates as needed.
-2. Run the code to observe the training process and error metrics.
-3. Visualize the results to understand the impact of different learning rates on model performance.
 
-Feel free to explore the code, experiment with hyperparameters, and gain insights into the training dynamics of a simple linear regression model.
+
+## 2-Multiple-Dimension-Linear-Regression.ipynb
+### Overview
+This Jupyter Notebook (2-Multiple-Dimension-Linear-Regression.ipynb) provides an introduction to building complicated linear regression models using PyTorch. The primary focus is on handling multiple dimensions and understanding the PyTorch functionality for creating, training, and evaluating models.
+
+### Content
+#### Objective
+
+Demonstrates how to create complicated models using PyTorch built-in functions.
+Preparation
+
+- Imports necessary libraries.
+- Sets a random seed.
+- Defines a plotting function for 2D visualization.
+- Make Some Data
+
+- Creates a dataset class with two-dimensional features.
+- Generates a dataset object for training.
+- Create the Model, Optimizer, and Total Loss Function (Cost)
+
+- Defines a customized linear regression module.
+- Creates a linear regression model with two input features and one output.
+- Sets up an optimizer and a loss function.
+- Train the Model via Mini-Batch Gradient Descent
+
+- Implements a training function for running Mini-Batch Gradient Descent.
+- Plots the model's data performance before and after training.
+- Displays a graph of the loss function across iterations.

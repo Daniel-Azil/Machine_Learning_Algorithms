@@ -1,4 +1,4 @@
-# Pytorch Implementation of Machine Learning Algorithm.
+# Pytorch Implementation of Machine Learning Algorithms.
 
 ## 1D-Linear_Regression.ipynb
 

@@ -1,6 +1,6 @@
 # Pytorch Implementation of Machine Learning Algorithms.
 
-## 1D-Linear_Regression.ipynb
+## 1-One_Dimension_Linear_Regression_Training.ipynb
 
 ### Implementation of 1D Linear Regression with PyTorch
 
@@ -18,30 +18,29 @@ This Jupyter Notebook contains a simple implementation of 1D linear regression u
 
 
 
-## 2-Multiple-Dimension-Linear-Regression.ipynb
-### Overview
-This Jupyter Notebook (2-Multiple-Dimension-Linear-Regression.ipynb) provides an introduction to building complicated linear regression models using PyTorch. The primary focus is on handling multiple dimensions and understanding the PyTorch functionality for creating, training, and evaluating models.
+## Linear_Regression_Multiple_Inputs.ipynb
 
-### Content
-#### Objective
+### Linear Regression with Multiple Inputs
 
-Demonstrates how to create complicated models using PyTorch built-in functions.
-Preparation
+#### Overview
+Demonstrates the construction of intricate models using PyTorch's built-in capabilities.
 
-- Imports necessary libraries.
-- Sets a random seed.
-- Defines a plotting function for 2D visualization.
-- Make Some Data
+#### Contents
 
-- Creates a dataset class with two-dimensional features.
-- Generates a dataset object for training.
-- Create the Model, Optimizer, and Total Loss Function (Cost)
+Import essential libraries.
+- Initialize a random seed for consistency.
+- Define a visualization function for 2D plotting.
+- Make Some Data:
 
-- Defines a customized linear regression module.
-- Creates a linear regression model with two input features and one output.
-- Sets up an optimizer and a loss function.
-- Train the Model via Mini-Batch Gradient Descent
+- Design a dataset class tailored for two-dimensional features.
+- Instantiate a dataset object for model training.
+- Model & Setup:
 
-- Implements a training function for running Mini-Batch Gradient Descent.
-- Plots the model's data performance before and after training.
-- Displays a graph of the loss function across iterations.
+- Construct a specialized linear regression module.
+- Establish a linear regression model configured for two inputs and one output.
+- Configure an optimizer and select a loss function.
+- Training via Mini-Batch Gradient Descent:
+
+- Implement a training mechanism using Mini-Batch Gradient Descent.
+- Visualize the model's performance pre and post-training.
+- Chart the progression of the loss function throughout iterations.

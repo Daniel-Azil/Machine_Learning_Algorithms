@@ -18,7 +18,7 @@ This Jupyter Notebook contains a simple implementation of 1D linear regression u
 
 
 
-## Linear_Regression_Multiple_Inputs.ipynb
+## 2-Linear_Regression_Multiple_Inputs.ipynb
 
 ### Linear Regression with Multiple Inputs
 
@@ -44,3 +44,56 @@ Import essential libraries.
 - Implement a training mechanism using Mini-Batch Gradient Descent.
 - Visualize the model's performance pre and post-training.
 - Chart the progression of the loss function throughout iterations.
+
+
+
+## 3-Linear_Regression_Multiple_Outputs.ipynb
+
+### Linear Regression with Multiple Outputs
+
+#### Overview
+Demonstrate the creation of complex models in PyTorch for multiple linear regression with multiple outputs.
+
+#### Contents
+- Import Dependencies:
+
+- Import essential libraries for the task.
+- Data Preparation:
+
+- Create a dataset class with two-dimensional features and two targets.
+- Generate a dataset object using the defined class.
+- Model & Setup:
+
+- Define a custom linear regression module for multiple outputs.
+- Initialize a linear regression model.
+- Instantiate an optimizer with a specified learning rate.
+- Define the Mean Squared Error (MSE) loss function.
+- Training:
+
+- Use Mini-Batch Gradient Descent for training.
+- Store the total loss for each iteration across epochs.
+- Visualization:
+
+- Plot the progression of the loss function over iterations.
+
+
+## 4-Logistic_Regression_Prediction.ipynb
+### Logistic Regression with PyTorch
+A guide and demonstration on logistic regression using PyTorch. Dive into the intricacies of binary classification and how PyTorch simplifies its implementation.
+
+### Overview
+Logistic regression is a foundational technique in the realm of machine learning, predominantly utilized for binary classification problems. In this repository, we explore the basics of logistic regression and its PyTorch implementation, catering to both beginners and seasoned practitioners.
+
+#### Key Features
+Sigmoid Function: Understand the foundational sigmoid function and its role in logistic regression.
+PyTorch's nn.Sequential: Dive deep into PyTorch's utilities for crafting logistic regression models.
+Custom Modules: Craft bespoke logistic regression implementations for specialized tasks.
+
+- Basic Sigmoid Function
+A demonstration showcasing the sigmoid function's role in transforming raw scores into probabilities. Understand its significance and visualize its impact.
+
+- Using nn.Sequential
+An illustrative example detailing the construction of logistic regression models using PyTorch's nn.Sequential container. Get hands-on experience with code samples and accompanying explanations.
+
+- Custom Modules
+For those keen on a more tailored approach or seeking greater flexibility, this section delves into creating custom PyTorch modules for logistic regression. Uncover advanced techniques and best practices.
